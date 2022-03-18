@@ -1,5 +1,28 @@
 .title {
     width: 300px;
     color:aquamarine;
-    margin: auto;
+    margin:40px auto;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    width: 30%;
+    height: 150px;
+}
+
+.block_color_blue {
+    background-color: aqua;
+}
+
+.block_color_green {
+    background-color: aquamarine;
+}
+
+.block_color_violet {
+    background-color: blueviolet;
 }
